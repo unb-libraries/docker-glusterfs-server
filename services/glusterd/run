@@ -1,3 +1,2 @@
 #!/usr/bin/env bash
-
-/usr/sbin/glusterd -p /var/run/glusterd.pid
+service glusterfs-server start
